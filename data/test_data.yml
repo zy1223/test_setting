@@ -1,0 +1,11 @@
+#{data:{test_num1:{t1:1,exp:休眠}，test_num2:{t2:m,exp:MAC地址}，，test_num3:{t3:w,exp:WPS按钮}}}
+data:
+  test_num1:
+    t: 1
+    exp: 休眠
+  test_num2:
+    t: m
+    exp: MAC地址
+  test_num3:
+    t: w
+    exp: WPS按钮

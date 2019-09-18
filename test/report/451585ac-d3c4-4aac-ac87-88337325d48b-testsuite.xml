@@ -1,0 +1,22 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1568551838764" stop="1568551838765">
+  <description>This is the tests collection phase. Failures are modules that failed to collect.</description>
+  <name>test_collection_phase</name>
+  <title>Collection phase</title>
+  <labels/>
+  <test-cases>
+    <test-case start="1568551838765" status="broken" stop="1568551838765">
+      <name>set_test</name>
+      <failure>
+        <message>failed</message>
+        <stack-trace>set_test.py:20: in &lt;module&gt;
+    class TestSet(object):
+set_test.py:32: in TestSet
+    @pytest.mark.parametrize('text,exp', test_data())
+E   NameError: name 'test_data' is not defined</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
